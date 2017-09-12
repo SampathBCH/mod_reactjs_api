@@ -7,4 +7,5 @@ I did install the module required for this but didn't mess with webpack.config t
 
 Also, another small module i used is react-materialize which comes with standard Footer and few other elements that can be readily used on the page.
 
+
 Thank you !
