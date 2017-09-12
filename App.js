@@ -88,7 +88,7 @@ handleToggle(){this.setState({open: !this.state.open});}
                       </TableHeader>
                       <TableBody>
                         {this.state.items.map(item=>
-                            <TableRow>
+                            <TableRow key={item.id}>
                               <TableRowColumn key={item.id}>{item.id}</TableRowColumn>
                               <TableRowColumn key={item.id}>{item.title}</TableRowColumn>
                             </TableRow>
